@@ -18,6 +18,7 @@
     </style>
   </head>
   <body>
+    <audio autoplay src="./audio/xuan.mp3"></audio>
     <section></section>
     <script
       type="text/javascript"
@@ -25,9 +26,11 @@
     ></script>
     <script type="text/javascript" src="jquery.fireworks.js"></script>
     <script>
-      var source = "audio/xuan.mp3";
+      var source = "xuan.mp3";
       var audio = document.createElement("audio");
+      //
       audio.autoplay = true;
+      //
       audio.load();
       audio.addEventListener(
         "load",
